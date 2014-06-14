@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+		int i,j;
+		sscanf(argv[1],"%x",&i);
+		sscanf(argv[2],"%x",&j);
+		printf("%x,%xS\n",i,j);
+		return 0;
+}

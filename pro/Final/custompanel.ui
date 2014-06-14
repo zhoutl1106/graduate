@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>customPanel</class>
+ <widget class="QWidget" name="customPanel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>10</y>
+     <width>221</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Parameters Panel of Custom</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPath">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>50</y>
+     <width>300</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>You haven't load any waveform file!</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
